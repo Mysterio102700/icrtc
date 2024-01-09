@@ -1,0 +1,55 @@
+.navbar {
+    background-color: #FECD07;
+    z-index: 1;
+}
+
+.navbar .container-fluid img {
+    max-width: 5%;
+}
+
+.dropdown {
+    display: block;
+}
+
+.fa-home {
+    font-size: x-large;
+    margin-right: 5px;
+}
+
+li {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li a {
+    font-weight: 600;
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 0;
+}
+
+@media screen and (max-width: 765px) {
+    .navbar .container-fluid img {
+        max-width: 10%;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    .fa-bell,
+    .fa-home {
+        font-size: large;
+        margin-right: 5px;
+    }
+}

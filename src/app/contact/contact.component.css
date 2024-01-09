@@ -1,0 +1,19 @@
+.mt-4 {
+    margin-top: 1.5rem !important;
+    padding: 0px;
+    margin: 0;
+}
+
+li{
+    line-height: 40px;
+    list-style: none;
+    font-size: larger;
+}
+
+.container{
+    text-align: center;
+}
+
+ul{
+    margin: 0px 0 0 0 !important;
+}

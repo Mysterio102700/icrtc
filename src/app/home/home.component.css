@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+        max-width: 100%;
+}
+
+.container{
+    position: absolute;
+    max-width: 100%;
+    top: 15%;
+}
+
+.container h1{
+        width: 100%;
+        font-weight: 700;
+        font-family: Derkon Headline;
+        text-align: center;
+        color: #fff;
+        mix-blend-mode: difference;
+        text-shadow: 3px 6px 10px  #111;
+  
+}
+
+.container1{
+    display: flex;
+}
+
+
+.container3{
+    display: flex;
+}
+.left{
+    width: 50%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.left h5{
+    text-align: justify;
+    line-height:normal;
+    font-family: 'Kanit', sans-serif;
+}
+.left img{
+    max-width: 70%;
+}
+
+.right{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.right h5{
+    line-height: normal;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+}
+
+.right img{
+    max-width: 70%;
+}
+.container2{
+    background-color: #131144;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 img{
+    max-width: 10%;
+}
+
+h3{
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
+}
+
+h4{
+    color: #FFD008;
+    font-family: 'Roboto Mono', monospace;
+    line-height: normal;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul li{
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    /* left: 0; */
+    z-index: 1;
+}
+
+.overlay image{
+    max-width:100% ;
+}
+
+.overlay div{
+    position: relative;
+    top: 65px;
+    z-index: 1;
+    font-size: 50px;
+    cursor: pointer;
+    left: 12%;
+}
+
+footer img{
+    max-width: 100%;
+}
+@media screen and (max-width:765px) {
+    .container1{
+        flex-direction: column-reverse;
+    }
+    .container3{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        padding: 5%;
+    }
+    .right{
+        width: 100%;
+        padding: 5%;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+    h5{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .container{
+        top: 10%;
+    }
+
+    .overlay img{
+        max-width:70% ;
+    }
+
+    .overlay div{
+        left: 30%;
+    }
+
+}
+
