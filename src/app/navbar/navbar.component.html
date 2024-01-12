@@ -1,15 +1,8 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <img src="../../assets/png/GIet Logo.png" alt="" />
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -19,22 +12,32 @@
           <h6>Home</h6>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
             Committee
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/AdvisoryCommittee">Advisory Committee</a></li>
+            <li><a class="dropdown-item" routerLink="/TechnicalCommittee">Technical Committee </a></li>
+            <li><a class="dropdown-item" routerLink="/OrganizingCommittee">Organizing Committee </a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Patrons
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li class="nav-item active"><a class="dropdown-item" routerLink="/ChiefPatrons">Chief Patrons</a></li>
-        <li ><a class="dropdown-item" routerLink="/Patrons">Patrons</a></li>
-        <li ><a class="dropdown-item" routerLink="/AdvisoryCommittee">Advisory Committee</a></li>
-        <li ><a class="dropdown-item" routerLink="/TechnicalCommittee">Technical Committee </a></li>
-        <li ><a class="dropdown-item" routerLink="/OrganizingCommittee">Organizing Committee </a></li>
+            <li><a class="dropdown-item" routerLink="/Patrons">Patrons</a></li>
 
           </ul>
         </li>
         <li class="nav-item active"><a class="dropdown-item" routerLink="/Publications">Publications</a></li>
         <li class="nav-item active"><a class="dropdown-item" routerLink="/Registration">Registration</a></li>
         <li class="nav-item active"><a class="dropdown-item" routerLink="/ContactUs">Contact</a></li>
-        
+
       </ul>
     </div>
   </div>

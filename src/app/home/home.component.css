@@ -18,9 +18,9 @@ img{
         font-weight: 700;
         font-family: Derkon Headline;
         text-align: center;
-        color: #fff;
-        mix-blend-mode: difference;
-        text-shadow: 3px 6px 10px  #111;
+        color: #0b0b0b;
+        /* mix-blend-mode: difference; */
+        text-shadow: 5px 6px 10px  #666565;
   
 }
 
