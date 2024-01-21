@@ -13,6 +13,8 @@ import { OrganizingCommitteeComponent } from './Comittee/organizing-committee/or
 import { PublicationsComponent } from './publications/publications.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ContactComponent } from './contact/contact.component';
+import { SubmissionComponent } from './submission/submission.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ContactComponent } from './contact/contact.component';
     OrganizingCommitteeComponent,
     PublicationsComponent,
     RegistrationComponent,
-    ContactComponent
+    ContactComponent,
+    SubmissionComponent,
+    
     
     
   ],
