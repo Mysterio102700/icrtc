@@ -9,6 +9,7 @@ import { OrganizingCommitteeComponent } from './Comittee/organizing-committee/or
 import { PublicationsComponent } from './publications/publications.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ContactComponent } from './contact/contact.component';
+import { SubmissionComponent } from './submission/submission.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'OrganizingCommittee',component:OrganizingCommitteeComponent},
   {path:'Publications',component:PublicationsComponent},
   {path:'Registration',component:RegistrationComponent},
-  {path:'ContactUs',component:ContactComponent}
+  {path:'ContactUs',component:ContactComponent},
+  {path:'Submission',component:SubmissionComponent},
 ];
 
 @NgModule({
