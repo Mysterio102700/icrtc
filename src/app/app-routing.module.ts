@@ -10,9 +10,11 @@ import { PublicationsComponent } from './publications/publications.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ContactComponent } from './contact/contact.component';
 import { SubmissionComponent } from './submission/submission.component';
+import { ReviewingCommitteeComponent } from './Comittee/reviewing-committee/reviewing-committee.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
+  {path:'ReviewingCommittee',component:ReviewingCommitteeComponent},
   {path:'AdvisoryCommittee',component:AdvisoryCommitteeComponent},
   {path:'TechnicalCommittee',component:TechnicalCommitteeComponent},
   {path:'ChiefPatrons',component:ChiefPatronsComponent},
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path:'Registration',component:RegistrationComponent},
   {path:'ContactUs',component:ContactComponent},
   {path:'Submission',component:SubmissionComponent},
+ 
+ 
 ];
 
 @NgModule({

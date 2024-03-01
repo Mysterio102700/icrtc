@@ -14,6 +14,7 @@ import { PublicationsComponent } from './publications/publications.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ContactComponent } from './contact/contact.component';
 import { SubmissionComponent } from './submission/submission.component';
+import { ReviewingCommitteeComponent } from './Comittee/reviewing-committee/reviewing-committee.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { SubmissionComponent } from './submission/submission.component';
     RegistrationComponent,
     ContactComponent,
     SubmissionComponent,
+    ReviewingCommitteeComponent,
     
     
     
